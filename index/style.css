@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.heading{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+  
+    font-size: 30px;
+    font-weight: 500;
+    color: aliceblue;
+   padding-top: 2rem;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.choice{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 50%;
+  
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+    
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comp{
+    height: 150px;
+    width: 200px;
+    margin-top: 5rem;
+}
+.score1{
+    font-size: 2rem;
+    font-weight: 500;}
+    .score2{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+.you{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p{
+    height: 35px;
+    width: fit-content;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+   background-color: rgb(136, 24, 24);
+   color: rgb(241, 243, 242);
+  
+   }
+
+.pick:hover{
+    cursor: pointer;
+   
+    
+}
+.pick{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
